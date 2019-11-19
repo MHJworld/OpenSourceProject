@@ -10,22 +10,22 @@ import javax.swing.*;
 
 public class LoginFrame extends JFrame{
 
-	public LoginFrame() {		// »ý¼ºÀÚ
-		// Dimension res = Toolkit.getDefaultToolkit().getScreenSize();	// È­¸é Å©±â
+	public LoginFrame() {		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+		// Dimension res = Toolkit.getDefaultToolkit().getScreenSize();	// È­ï¿½ï¿½ Å©ï¿½ï¿½
 
-		JFrame frame= new JFrame("Àü°øÃ¥ ´ë¿© »ç¾÷ ÇÁ·Î±×·¥");	// JFrame frame »ý¼º
+		JFrame frame= new JFrame("ï¿½ï¿½ï¿½ï¿½Ã¥ ï¿½ë¿© ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Î±×·ï¿½");	// JFrame frame ï¿½ï¿½ï¿½ï¿½
 
-		// login panel »ý¼º
+		// login panel ï¿½ï¿½ï¿½ï¿½
 		JPanel panel = new JPanel();		
 
 		panel.setLayout(null);
 
-		JLabel Title=new JLabel("¡ß¡Þ DRAG Àü°øÃ¥ ´ë¿© »ç¾÷ ÇÁ·Î±×·¥ÀÔ´Ï´Ù ¡Þ¡ß");
+		JLabel Title=new JLabel("ï¿½ß¡ï¿½ DRAG ï¿½ï¿½ï¿½ï¿½Ã¥ ï¿½ë¿© ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Î±×·ï¿½ï¿½Ô´Ï´ï¿½ ï¿½Þ¡ï¿½");
 		Title.setBounds(58,40,1000,25);
 		panel.add(Title);
 
-		// ÇÐ¹ø text
-		JLabel Hakbun_Lable=new JLabel("ÇÐ¹ø");
+		// ï¿½Ð¹ï¿½ text
+		JLabel Hakbun_Lable=new JLabel("ï¿½Ð¹ï¿½");
 		Hakbun_Lable.setBounds(90, 100, 80, 25);	
 		panel.add(Hakbun_Lable);
 
@@ -34,8 +34,8 @@ public class LoginFrame extends JFrame{
 		pw_Lable.setBounds(90, 130, 80, 25);	
 		panel.add(pw_Lable);
 
-		// ÇÐ¹ø text box
-		JTextField id = new JTextField(20); // ÇÐ¹ø text box
+		// ï¿½Ð¹ï¿½ text box
+		JTextField id = new JTextField(20); // ï¿½Ð¹ï¿½ text box
 		id.setBounds(130, 100, 160, 25);	
 		panel.add(id);       
 
@@ -44,7 +44,7 @@ public class LoginFrame extends JFrame{
 		pw.setBounds(130, 130, 160, 25);	
 		panel.add(pw);
 
-		// login button »ý¼º & Å¬¸¯ ÀÌº¥Æ® ¹ß»ý ½Ã
+		// login button ï¿½ï¿½ï¿½ï¿½ & Å¬ï¿½ï¿½ ï¿½Ìºï¿½Æ® ï¿½ß»ï¿½ ï¿½ï¿½
 		JButton login_B = new JButton("LOGIN");	
 		login_B.setBounds(130,170,70,30);		
 		panel.add(login_B);
@@ -57,7 +57,7 @@ public class LoginFrame extends JFrame{
 			}
 		});
 
-		// join button »ý¼º & Å¬¸¯ ÀÌº¥Æ® ¹ß»ý ½Ã
+		// join button ï¿½ï¿½ï¿½ï¿½ & Å¬ï¿½ï¿½ ï¿½Ìºï¿½Æ® ï¿½ß»ï¿½ ï¿½ï¿½
 		JButton join_B = new JButton("JOIN");	
 		join_B.setBounds(220,170,70,30);		
 		panel.add(join_B);
@@ -82,8 +82,9 @@ public class LoginFrame extends JFrame{
 
 	public static void main(String[] args) {
 
-		// Ã¹ ½ÃÀÛ
+		// Ã¹ ï¿½ï¿½ï¿½ï¿½
 		new LoginFrame();	
+		// hihihihihihihihiererer
 	
 	}
 
