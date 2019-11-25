@@ -84,8 +84,12 @@ public class LoginFrame extends JFrame{
 
 		// ù ����
 		new LoginFrame();	
+<<<<<<< HEAD
 		// hihihihihihihihiererer
 	
+=======
+
+>>>>>>> 27071b39d295b2afce136297b106ce05513cd48f
 	}
 
 
